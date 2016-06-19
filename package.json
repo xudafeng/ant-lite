@@ -1,6 +1,6 @@
 {
   "name": "ant-lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ant wrapper for Node.js",
   "keywords": [
     "ant"

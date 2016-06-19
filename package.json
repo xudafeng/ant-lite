@@ -1,14 +1,17 @@
 {
   "name": "ant-lite",
-  "version": "0.1.0",
-  "description": "ant-lite",
-  "keywords": ["ant-lite"],
+  "version": "1.0.0",
+  "description": "ant wrapper for Node.js",
+  "keywords": [
+    "ant"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/xudafeng/ant-lite.git"
   },
   "dependencies": {
+    "xutil": "^1.0.1"
   },
   "devDependencies": {
     "co-mocha": "*",

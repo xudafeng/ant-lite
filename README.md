@@ -17,11 +17,11 @@
 [download-image]: https://img.shields.io/npm/dm/ant-lite.svg?style=flat-square
 [download-url]: https://npmjs.org/package/ant-lite
 
-> ant-lite
+> ant wrapper for Node.js
 
 ## Installment
 
-```bash
+```shell
 $ npm i ant-lite --save
 ```
 

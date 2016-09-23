@@ -1,22 +1,10 @@
 git_version = $$(git branch 2>/dev/null | sed -e '/^[^*]/d'-e's/* \(.*\)/\1/')
 npm_bin= $$(npm bin)
-REQUIRED = --require should
-TESTS = test
-
-BIN = iojs
-
-ifeq ($(findstring io.js, $(shell which node)),)
-	BIN = node
-endif
-
-ifeq (node, $(BIN))
-	FLAGS = --harmony-generators
-endif
 
 all: test
 install:
 	@npm install
-test: install
+test:
 	@node --harmony \
 		${npm_bin}/istanbul cover ${npm_bin}/_mocha \
 		-- \
